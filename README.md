@@ -62,15 +62,15 @@ Include the following:
 
 __Highest-Performing Schools (by % Overall Passing)__
 
-Sort the schools by % Overall Passing in descending order and display the top 5 rows.
+- Sort the schools by % Overall Passing in descending order and display the top 5 rows.
 
-Save the results in a DataFrame called "top_schools".
+- Save the results in a DataFrame called "top_schools".
 
 __Lowest-Performing Schools (by % Overall Passing)__
 
-Sort the schools by % Overall Passing in ascending order and display the top 5 rows.
+- Sort the schools by % Overall Passing in ascending order and display the top 5 rows.
 
-Save the results in a DataFrame called "bottom_schools".
+- Save the results in a DataFrame called "bottom_schools".
 
 __Math Scores by Grade__
 
