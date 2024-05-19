@@ -61,57 +61,62 @@ Include the following:
 - % overall passing (the percentage of students who passed math AND reading)
 
 __Highest-Performing Schools (by % Overall Passing)__
+
 Sort the schools by % Overall Passing in descending order and display the top 5 rows.
 
 Save the results in a DataFrame called "top_schools".
 
 __Lowest-Performing Schools (by % Overall Passing)__
+
 Sort the schools by % Overall Passing in ascending order and display the top 5 rows.
 
 Save the results in a DataFrame called "bottom_schools".
 
 __Math Scores by Grade__
+
 Perform the necessary calculations to create a DataFrame that lists the average math score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
 __Reading Scores by Grade__
+
 Create a DataFrame that lists the average reading score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
 __Scores by School Spending__
-Create a table that breaks down school performance based on average spending ranges (per student).
 
-Use the code provided to create four bins with reasonable cutoff values to group school spending.
+- Create a table that breaks down school performance based on average spending ranges (per 
+  student).
 
-Use pd.cut to categorize spending based on the bins.
+- Use the code provided to create four bins with reasonable cutoff values to group school 
+  spending.
 
-Use the provided code to then calculate mean scores per spending range.
+- Use pd.cut to categorize spending based on the bins.
 
-Use the given scores above to create a DataFrame called spending_summary.
+- Use the provided code to then calculate mean scores per spending range.
 
-Include the following metrics in the table:
+- Use the given scores above to create a DataFrame called spending_summary.
 
-- Average math score
+- Include the following metrics in the table:
 
-- Average reading score
+  - Average math score
 
-- % passing math (the percentage of students who passed math)
+  - Average reading score
 
-- % passing reading (the percentage of students who passed reading)
+  - % passing math (the percentage of students who passed math)
 
-- % overall passing (the percentage of students who passed math AND reading)
+  - % passing reading (the percentage of students who passed reading)
+
+  - % overall passing (the percentage of students who passed math AND reading)
 
 __Scores by School Size__
 
-Use the given code to bin the per_school_summary.
+- Use the given code to bin the per_school_summary.
 
-Use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
+- Use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
 
-Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
+- Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
 
 __Scores by School Type__
 
-Use the per_school_summary DataFrame from the previous step to create a new DataFrame called type_summary.
-
-This new DataFrame should show school performance based on the "School Type".
+Use the per_school_summary DataFrame from the previous step to create a new DataFrame called type_summary. This new DataFrame should show school performance based on the "School Type".
 
 ## Results
 
